@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="playlist_btn">Enter Playlist</string>
+    <string name="playing_btn">Playing</string>
+    <string name="category_playlist">Playlist</string>
+    <string name="category_playing">Currently Playing</string>
+    <string name="category_home">Home</string>
+</resources>

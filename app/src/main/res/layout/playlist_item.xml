@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/playlist_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <!-- Album cover for music object -->
+    <ImageView
+        android:id="@+id/album_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <!-- Song name for music object -->
+    <TextView
+        android:id="@+id/song_text_view"
+        style="@style/SongListViewStyle"
+        android:layout_toEndOf="@id/album_icon"
+        android:layout_toRightOf="@id/album_icon"
+        tools:text="I Am Machine" />
+
+    <!-- Artist name for music object -->
+    <TextView
+        android:id="@+id/artist_text_view"
+        style="@style/ArtistListViewStyle"
+        android:layout_below="@id/song_text_view"
+        android:layout_toEndOf="@id/album_icon"
+        android:layout_toRightOf="@id/album_icon"
+        tools:text="Three Days Grace" />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_padding">16dp</dimen>
+
+    <!-- Menu dimensions -->
+    <dimen name="menu_padding">8dp</dimen>
+    <dimen name="menu_line">2dp</dimen>
+
+    <!-- ListView dimensions -->
+    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="listview_vertical_padding">8dp</dimen>
+    <dimen name="listview_song_padding">16dp</dimen>
+    <dimen name="listview_artist_padding">24dp</dimen>
+    <dimen name="listview_divider_height">1dp</dimen>
+
+    <!-- Playing dimensions -->
+    <dimen name="playing_btn_ht">45dp</dimen>
+    <dimen name="seekbar_progress">20</dimen>
+</resources>
